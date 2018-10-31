@@ -1,0 +1,6 @@
+*{margin: 0px; padding: 0px;}
+ul{list-style: none;}
+body{font-family: "微软雅黑"; color: black}
+
+.bigbox{width: auto; height: auto; margin: auto; position: relative;}
+.vid-box{width: 666px; height: 377px; margin: auto;}
