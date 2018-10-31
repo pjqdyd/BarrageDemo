@@ -24,6 +24,7 @@ websocket.onerror = function (event) {
 }
 
 window.onbeforeunload = function () {
+
     websocket.close();
 }
 

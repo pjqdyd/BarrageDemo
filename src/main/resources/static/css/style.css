@@ -1,9 +1,15 @@
-*{margin: 0px; padding: 0px;}
+*{margin: 0px; padding: 0px; font-size: 20px;}
 ul{list-style: none;}
 body{font-family: "微软雅黑"; color: black}
 
 .bigbox{width: auto; height: auto; margin: auto; position: relative;}
 .head-box{width: auto; height: 100px;}
 .vid-box{width: 666px; height: 423px; margin: auto; top: 100px;}
-.inpu-box{width: 570px; height: 40px; border: darkseagreen 2px solid; float: left;}
-.button{width: 80px; height: 40px; border: lightseagreen 2px solid; float: right; text-align: center;}
+
+.inpu-box{width: 570px; height: 40px; border: darkseagreen 2px solid; float: left;
+    line-height: 40px; vertical-align: middle; }
+
+.button{width: 80px; height: 40px; border: rgb(87,175,253) 2px solid; float: right;
+    text-align: center; background: antiquewhite;}
+
+.send-img{width: 40px; height:40px;}

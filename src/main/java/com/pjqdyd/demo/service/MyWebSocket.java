@@ -40,6 +40,7 @@ public class MyWebSocket {
     @OnMessage
     public void onMessage(String message){
         System.out.println("[webSocket消息] 收到客户端发来的消息:" + message);
+        sendMessage(message);
     }
 
     //定义发送广播消息的方法
