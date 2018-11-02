@@ -1,5 +1,5 @@
 *{margin: 0px; padding: 0px; font-size: 20px;}
-ul{list-style: none;}
+
 body{font-family: "微软雅黑"; color: black}
 
 .bigbox{width: auto; height: auto; margin: auto; position: relative;}
@@ -19,8 +19,5 @@ body{font-family: "微软雅黑"; color: black}
     right: 0; bottom: 0; text-align: center; background: antiquewhite;}
 
 .send-img,.play-img{width: 40px; height:40px;}
-
-.tips-box{width: 200px; height: 30px; line-height: 30px; font-size: 14px; border: coral 1px solid;
-    position: absolute; top: 425px; display: none; text-align: center; color: lightcoral;}
 
 .barrage-box p{font-size: 14px; position: absolute; white-space:nowrap;} /*宽度不继承父元素,由自己内容决定*/

@@ -24,7 +24,6 @@
 
         <div class="inpu-box" contenteditable=true><p>这里输入弹幕</p></div>
         <div id="button" class="button"><img class="send-img" src="/img/send.png" alt="发送"/></div>
-        <div class="tips-box">请等会再试吧..</div>
     </div>
 
 </div>
