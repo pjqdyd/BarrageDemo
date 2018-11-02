@@ -3,13 +3,24 @@ ul{list-style: none;}
 body{font-family: "微软雅黑"; color: black}
 
 .bigbox{width: auto; height: auto; margin: auto; position: relative;}
-.head-box{width: auto; height: 100px;}
-.vid-box{width: 666px; height: 423px; margin: auto; top: 100px;}
+.head-box{width: auto; height: 80px;}
+.content-box{width: 666px; height: 425px; margin: auto; position: relative;}
+.vid-box{width: 666px; height: 375px; margin: auto; position: relative;}
 
-.inpu-box{width: 570px; height: 40px; border: darkseagreen 2px solid; float: left;
-    line-height: 40px; vertical-align: middle; }
+.barrage-box{width: 666px; height: 320px; position: absolute; top: 0px; overflow: hidden;}
 
-.button{width: 80px; height: 40px; border: rgb(87,175,253) 2px solid; float: right;
-    text-align: center; background: antiquewhite;}
+.play-button{width: 40px; height:40px; background: black; position: relative;
+     left: 10px; bottom: 50px; float: left;}
 
-.send-img{width: 40px; height:40px;}
+.inpu-box{width: 570px; height: 40px; border: darkseagreen 2px solid; position: absolute;
+    left: 0; bottom: 0; line-height: 40px; vertical-align: middle; }
+
+.button{width: 80px; height: 40px; border: rgb(87,175,253) 2px solid; position: absolute;
+    right: 0; bottom: 0; text-align: center; background: antiquewhite;}
+
+.send-img,.play-img{width: 40px; height:40px;}
+
+.tips-box{width: 200px; height: 30px; line-height: 30px; font-size: 14px; border: coral 1px solid;
+    position: absolute; top: 425px; display: none; text-align: center; color: lightcoral;}
+
+.barrage-box p{font-size: 14px; position: absolute; white-space:nowrap;} /*宽度不继承父元素,由自己内容决定*/

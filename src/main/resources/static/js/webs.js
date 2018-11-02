@@ -15,16 +15,19 @@ websocket.onclose = function (event) {
     console.log('连接关闭');
 }
 
-websocket.onmessage = function (event) {
-    console.log('消息:'+event.data);
-}
 
 websocket.onerror = function (event) {
     alert('websocket通信错误!');
+}
+
+
+websocket.onmessage = function (event) {
+    console.log(event.data);
 }
 
 window.onbeforeunload = function () {
 
     websocket.close();
 }
+
 
