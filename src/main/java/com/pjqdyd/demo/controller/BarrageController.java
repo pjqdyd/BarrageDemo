@@ -3,13 +3,14 @@ package com.pjqdyd.demo.controller;
 import com.pjqdyd.demo.service.MyWebSocket;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
  * 弹幕主页Controller层
  */
-@RestController
+@Controller
 @RequestMapping("/barrage")
 public class BarrageController {
     @Autowired
