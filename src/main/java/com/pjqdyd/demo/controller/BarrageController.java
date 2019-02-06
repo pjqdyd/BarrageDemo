@@ -16,6 +16,12 @@ public class BarrageController {
     @Autowired
     private MyWebSocket myWebSocket;
 
+    @GetMapping("/hello")
+    public String SayHello(){
+        String msg = "Hello";
+        return msg;
+    }
+
     @GetMapping("/index")
     public ModelAndView index(){
         return new ModelAndView("/index/index");

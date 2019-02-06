@@ -27,19 +27,19 @@ public class MyWebSocket {
     public void onOpen(Session session){
         this.session = session;
         webSocketSet.add(this);
-        System.out.println("[webSocket消息] 有新的连接,总数:" + webSocketSet.size());
+        System.out.println("[webSocket] new connector,total:" + webSocketSet.size());
 
     }
 
     @OnClose
     public void onClose(){
         webSocketSet.remove(this);
-        System.out.println("[webSocket消息] 断开连接,总数:" + webSocketSet.size());
+        System.out.println("[webSocket] disconnect,total:" + webSocketSet.size());
     }
 
     @OnMessage
     public void onMessage(String message){
-        System.out.println("[webSocket消息] 收到客户端发来的消息:" + message);
+        System.out.println("[webSocket] new message:" + message);
         sendMessage(message);
     }
 
